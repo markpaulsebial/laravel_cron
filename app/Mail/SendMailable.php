@@ -17,7 +17,7 @@ class SendMailable extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($count)
     {
         $this->count = $count;
     }
